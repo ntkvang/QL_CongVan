@@ -14,7 +14,7 @@
     <link href="css/modern-business.css" rel="stylesheet">
   </head>
   <body>
-    <footer class="py-5 bg-dark" style="background-color:#064762;">
+    <footer class="py-5 bg-dark" style="background-color:#064762; width: 100%;">
       <div class="container">
         <p class="m-0 text-center text-white">Copyright &copy; Công Ty ABC 2017</p>
         <h5 class="mt-0 text-center text-white"><b>Ban biên tập trang thông tin điện tử Công Ty ABC</b></h5>
@@ -23,10 +23,12 @@
       </div>
       <!-- /.container -->
     </footer>
-    
+
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    
+
+
+
   </body>
 </html>

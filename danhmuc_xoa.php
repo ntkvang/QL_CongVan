@@ -16,11 +16,12 @@
 		<link rel="stylesheet" href="css/bootstrap-custom.css" />
 	</head>
 	<body>
+		<?php include_once "navbar.php"; ?>
 		<div class="container">
-			<?php include_once "navbar.php"; ?>
+			
 
 			<div class="card">
-				<h4 class="card-header">Xóa danh muc</h4>
+				<h4 class="card-header">Xóa chủ đề</h4>
 				<div class="card-body">
 					<?php
 						// Lấy id từ thanh địa chỉ
@@ -35,9 +36,6 @@
 					?>
 				</div>
 			</div>
-
-			<hr />
-			<footer>Bản quyền &copy; <?php echo date("Y") ?> bởi DH15TH.</footer>
 		</div>
 
 		<!-- Optional JavaScript -->

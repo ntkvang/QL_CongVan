@@ -1,5 +1,7 @@
 <?php
 	// Thư viện các hàm
+
+
 	function ThongBao($str)
 	{
 		echo '<div class="alert alert-success alert-dismissible fade show" role="alert">';
@@ -9,7 +11,7 @@
 			echo $str;
 		echo '</div>';
 	}
-	
+
 	function ThongBaoLoi($str)
 	{
 		echo '<div class="alert alert-warning alert-dismissible fade show" role="alert">';
@@ -19,7 +21,7 @@
 			echo $str;
 		echo '</div>';
 	}
-	
+
 	function LayHinhDauTien($strNoiDung)
 	{
 		$first_img = "";
